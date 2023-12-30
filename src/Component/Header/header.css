@@ -1,0 +1,33 @@
+.header_icon{
+    height: 60px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.header{
+/* color: white; */
+display: flex;
+/* justify-content: center; */
+align-items: center;
+margin-bottom: 10px;
+justify-content:space-around;
+gap: 80px;
+/* position: sticky */
+}
+.header_link{
+    font-size: 25px;
+    color: white;
+    text-decoration:none;
+    /* margin-left: 20px; */
+}
+.header_link:hover{
+color: red;
+}
+.searchQ{
+    margin-top: 20px;
+      margin-left: 220px;
+      margin-right:160px ;
+  font-size: 25px;
+}

@@ -1,0 +1,46 @@
+.search{
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ padding: 30px;
+ gap: 12px;
+}
+.indexSearch{
+    /* margin-top:-20px ; */
+    /* position: absolute; */
+    margin-top: 10px;
+    background-color: black;
+    border: none;
+    font-size: 20px;
+    padding: 6px;
+    margin-left: 20px;
+    color: white;
+    margin-right: 3px;
+    outline: none;
+}
+.searchButton{
+    font-size: 20px;
+    background-color: blueviolet;
+    color: white;
+    padding: 8px;
+    border: none;
+    border-radius: 9px;
+    cursor: pointer;
+}
+.pagination{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.next , .prev {
+background-color: white;
+color: black;
+border: none;
+padding: 8px 16px;
+margin: 10px 10px 0px 20px ;
+cursor: pointer;
+border-radius: 9px;
+}
+.next{
+    /* margin-right: 20px; */
+}

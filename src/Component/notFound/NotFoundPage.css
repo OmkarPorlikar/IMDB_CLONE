@@ -1,0 +1,30 @@
+/* NotFoundPage.css */
+
+.not-found-container {
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+  .not-found-title {
+    font-size: 5em;
+    color: #ff3d00;
+    margin-bottom: 10px;
+    animation: bounce 1s infinite alternate;
+  }
+  
+  .not-found-subtitle {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+  }
+  
+  .back-button {
+    margin-top: 20px;
+    font-size: 1em;
+  }
+  
+  @keyframes bounce {
+    to {
+      transform: scale(1.2);
+    }
+  }
+  
